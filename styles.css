@@ -19,7 +19,8 @@
   }
 
   .logo_grid {
-    grid-template-columns: repeat(2, 150px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
   }
 
   .ai_tools ul {
@@ -32,8 +33,8 @@
   }
 
   .logo_image {
-    width: 80px;
-    height: 80px;
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -57,7 +58,8 @@
   }
 
   .logo_grid {
-    grid-template-columns: repeat(2, 150px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
   }
 
   .ai_tools ul {
@@ -70,8 +72,8 @@
   }
 
   .logo_image {
-    width: 70px;
-    height: 70px;
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -81,7 +83,8 @@
   }
 
   .logo_grid {
-    grid-template-columns: repeat(2, 150px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
   }
 
   .ai_tools ul {
@@ -94,8 +97,8 @@
   }
 
   .logo_image {
-    width: 60px;
-    height: 60px;
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -109,10 +112,11 @@
   }
 
   .logo_image {
-    width: 50px;
-    height: 50px;
+    max-width: 100%;
+    height: auto;
   }
 }
+
 
 li, a {
   font-weight: 500;

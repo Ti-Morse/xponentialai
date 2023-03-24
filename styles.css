@@ -26,6 +26,26 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 10%;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .navigation {
+    text-align: center;
+  }
+
+  .navigation li {
+    padding: 0 10px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .navigation {
     display: none;
@@ -42,6 +62,16 @@
 
   form textarea {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  header {
+    padding: 10px 5%;
+  }
+
+  .navigation {
+    display: none;
   }
 }
 

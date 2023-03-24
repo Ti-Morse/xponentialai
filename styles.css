@@ -20,7 +20,6 @@
 
   .logo_grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
   }
 
   .ai_tools ul {
@@ -59,7 +58,6 @@
 
   .logo_grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
   }
 
   .ai_tools ul {
@@ -83,8 +81,7 @@
   }
 
   .logo_grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .ai_tools ul {
@@ -106,7 +103,11 @@
   header {
     padding: 10px 5%;
   }
-
+  
+  .logo_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
   .navigation {
     display: none;
   }

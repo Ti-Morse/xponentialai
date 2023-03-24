@@ -24,6 +24,11 @@
   form textarea {
     width: 200px;
   }
+
+  .logo_image {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -44,6 +49,24 @@
   .navigation li {
     padding: 0 10px;
   }
+
+  .logo_grid {
+    grid-template-columns: repeat(2, 150px);
+  }
+
+  .ai_tools ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px 30px;
+  }
+
+  form textarea {
+    width: 200px;
+  }
+
+  .logo_image {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -52,7 +75,7 @@
   }
 
   .logo_grid {
-    grid-template-columns: repeat(1, 150px);
+    grid-template-columns: repeat(2, 150px);
   }
 
   .ai_tools ul {
@@ -63,6 +86,11 @@
   form textarea {
     width: 100%;
   }
+
+  .logo_image {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -72,6 +100,11 @@
 
   .navigation {
     display: none;
+  }
+
+  .logo_image {
+    width: 50px;
+    height: 50px;
   }
 }
 

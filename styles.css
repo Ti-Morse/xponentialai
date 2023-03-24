@@ -235,6 +235,10 @@ form textarea {
   .navigation li {
     padding: 0 10px;
   }
+  
+  main {
+    padding-top: 60px;  
+  }
 
   .logo_grid {
     grid-template-columns: repeat(2, 1fr);
@@ -274,6 +278,10 @@ form textarea {
   .navigation li {
     padding: 0 10px;
   }
+  
+  main {
+    padding-top: 60px;  
+  }
 
   .logo_grid {
     grid-template-columns: repeat(2, 1fr);
@@ -299,6 +307,10 @@ form textarea {
   .navigation {
     display: none;
   }
+    
+  main {
+    padding-top: 60px;  
+  }
 
   .logo_grid {
     grid-template-columns: repeat(1, 1fr);
@@ -323,6 +335,10 @@ form textarea {
 @media only screen and (max-width: 375px) {
   header {
     padding: 10px 5%;
+  }
+  
+  main {
+    padding-top: 60px;  
   }
   
   .logo_grid {

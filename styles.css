@@ -252,6 +252,7 @@ form textarea {
 
   form textarea {
     width: 200px;
+    height: 120px;
   }
 
   .logo_image {
@@ -295,6 +296,7 @@ form textarea {
 
   form textarea {
     width: 200px;
+    height: 140px;
   }
 
   .logo_image {
@@ -324,6 +326,7 @@ form textarea {
 
   form textarea {
     width: 100%;
+    height: 160px;
   }
 
   .logo_image {
@@ -353,5 +356,10 @@ form textarea {
   .logo_image {
     max-width: 100%;
     height: auto;
+  }
+  
+  form textarea {
+    width: 100%;
+    height: 160px;
   }
 }

@@ -7,6 +7,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.logo_image_mobile {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
 @media only screen and (max-width: 768px) {
   .navigation li {
     padding: 0 10px;

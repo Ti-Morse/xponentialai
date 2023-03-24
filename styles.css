@@ -238,6 +238,7 @@ form textarea {
 
   .logo_grid {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
   }
 
   .ai_tools ul {
@@ -259,7 +260,7 @@ form textarea {
   header {
     flex-direction: column;
     text-align: center;
-    padding: 15px 10%;
+    padding: 25px 10%; 
   }
 
   .logo {
@@ -276,6 +277,7 @@ form textarea {
 
   .logo_grid {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
   }
 
   .ai_tools ul {
@@ -300,6 +302,7 @@ form textarea {
 
   .logo_grid {
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
   }
 
   .ai_tools ul {
@@ -324,6 +327,7 @@ form textarea {
   
   .logo_grid {
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
   }
   
   .navigation {

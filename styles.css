@@ -97,7 +97,7 @@ footer {
 }
 
 .logo_grid a, .logo_grid li {
-  color: black
+  color: black;
 }
 
 .logo_grid a:hover {
@@ -211,7 +211,8 @@ form textarea {
 
 .ai_tools li a {
   display: block;
-  padding: 5pxext-align: center;
+  padding: 5px;
+  text-align: center;
   color: black;
   text-decoration: none;
   font-size: 18px;

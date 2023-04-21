@@ -118,6 +118,10 @@ footer {
   background-color: rgba(255, 220, 40, .15);
 }
 
+.form_widget_spacing {
+  margin-bottom: 50px; 
+}
+
 @media only screen and (max-width: 768px) {
   .navigation li {
     padding: 0 10px;
@@ -125,6 +129,16 @@ footer {
 
   main {
     padding-top: 60px;
+  }
+  
+  .logo_grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .ai_tools ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px 15px;
   }
   
   form textarea {
@@ -156,6 +170,16 @@ footer {
   main {
     padding-top: 60px;
   }
+  
+  .logo_grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .ai_tools ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px 15px;
+  }
 
   form textarea {
     width: 200px;
@@ -175,6 +199,16 @@ footer {
   
   main {
     padding-top: 60px;
+  }
+  
+  .logo_grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .ai_tools ul {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px 15px;
   }
   
   form textarea {
@@ -200,6 +234,11 @@ footer {
   
   main {
     padding-top: 60px;
+  }
+  
+  .logo_grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
   }
 
   .navigation {

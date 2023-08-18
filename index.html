@@ -48,9 +48,10 @@
             left: 0;
             z-index: -1;
         }
-      a {
-        text-decoration: none;
-      }
+
+        a {
+            text-decoration: none;
+        }
     </style>
 </head>
 
@@ -170,13 +171,6 @@
                 }
             },
             "retina_detect": true
-        });
-
-        const title = document.getElementById('title');
-        document.addEventListener('mousemove', (event) => {
-            let xAxis = (window.innerWidth / 2 - event.pageX) / 25;
-            let yAxis = (window.innerHeight / 2 - event.pageY) / 25;
-            title.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
         });
     </script>
 </body>
